@@ -1,0 +1,171 @@
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  width: 95%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*Header*/
+
+header {
+  background: #eeeced;
+  padding: 1em 0;
+}
+.main-nav ul li {
+  list-style: none;
+  margin-right: 1em;
+  color: #826f71;
+  text-transform: uppercase;
+  transition: 0.15s;
+}
+
+.main-nav ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+/*End header*/
+/*banner*/
+.banner {
+  position: relative;
+  background: #eeeeee;
+
+}
+
+.b-banner {
+  width: 100%;
+}
+
+.b-promote {
+  background: url('./images/b-promote.png');
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  min-width: 18%;
+  min-height: 28%;
+  bottom: 10%;
+  right: 14%;
+  position: absolute;
+}
+
+
+.b-promote span {
+  display: block;
+}
+
+.b-promote p {
+  text-transform: uppercase;
+  color:white;ádasda
+  text-align: center;
+}
+
+
+/*end banner*/
+
+
+/*product*/
+
+.product {
+  color: #e4688d;
+  background: #e9e7e8;
+  position: relative;
+  padding: 3em 0;
+}
+
+.product h1 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 0;
+
+}
+
+.product h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.product img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*end product*/
+
+/*feature*/
+.feature {
+  background: #c8c10e;
+  padding: 3em 0;
+}
+
+.box {
+  width: calc(100%/12*3);
+  text-align: center;
+  color: white;
+  margin: 0 1em;
+  padding: 1em 0;
+  transition: 0.15s ease-out;
+
+}
+.box:hover {
+  box-shadow: 1px 1px 30px 1px #d9d9d9;
+  background-color: #a29c0e;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.box p {
+  text-transform: uppercase;
+}
+
+/*end feature*/
+footer {
+  background: #cb3362;
+  text-align: center;
+  padding: 4em 0;
+  color:white;
+}
+
+.icons {
+  width: 13%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+.icons img {
+  transition: 0.15s;
+    border-radius: 7px;
+}
+.icons img:hover {
+  opacity: 0.75;
+
+}
+
+footer span {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/*footer*/
+
+
+/*end footer*/
